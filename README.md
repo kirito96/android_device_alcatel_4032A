@@ -1,4 +1,4 @@
-# android_device_alcatel_4032A
+# android_device_ALCATEL_4032A
 
 Alcatel Pop C2 device tree for building CWM/CTR recoveries
 
