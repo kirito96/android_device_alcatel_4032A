@@ -1,6 +1,6 @@
 # android_device_alcatel_4032A
 
-Alcatel Pop C2 device tree for building CWM/CTR recoveries
+Alcatel Pop C2 device tree for building CWM,CTR and Philz recoveries
 
 #Building 
 Set buildrecovery.sh as executable in permissions.
