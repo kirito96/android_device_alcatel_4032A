@@ -3,11 +3,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/ALCATEL/4032A/4032A-vendor.mk)
+$(call inherit-product-if-exists, vendor/alcatel/4032A/4032A-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/ALCATEL/4032A/overlay
+DEVICE_PACKAGE_OVERLAYS += device/alcatel/4032A/overlay
 
-LOCAL_PATH := device/ALCATEL/4032A/prebuilt
+LOCAL_PATH := device/alcatel/4032A/prebuilt
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else

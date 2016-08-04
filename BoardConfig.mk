@@ -34,7 +34,7 @@ BOARD_CUSTOM_BOOTIMG_MK := device/alcatel/4032A/bootimg.mk
 BOARD_MKBOOTIMG_ARGS := --mtk 1
 
 TARGET_PREBUILT_KERNEL := device/alcatel/4032A/prebuilt/kernel
-TARGET_RECOVERY_INITRC := device/alcatel/4032A/recovery/init.rc
+TARGET_RECOVERY_INITRC := device/alcatel/4032A/recovery/init.mt6572.rc
 TARGET_RECOVERY_FSTAB := device/alcatel/4032A/recovery/recovery.fstab
 
 DEVICE_SCREEN_WIDTH := 480
@@ -43,8 +43,8 @@ DEVICE_SCREEN_HEIGHT := 800
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
-RECOVERY_VARIANT := twrp
-#RECOVERY_VARIANT := philz
+#RECOVERY_VARIANT := twrp
+RECOVERY_VARIANT := philz
 #RECOVERY_VARIANT := cwm
 #RECOVERY_VARIANT := carliv
 
