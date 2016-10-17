@@ -44,13 +44,8 @@ DEVICE_SCREEN_HEIGHT := 800
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 #RECOVERY_VARIANT := twrp
-#<<<<<<< HEAD
-RECOVERY_VARIANT := philz
-#RECOVERY_VARIANT := cwm
-=======
 #RECOVERY_VARIANT := philz
-#>>>>>>> 80bfcefec7e54251c23c3b35879cfefa25f79204
-#RECOVERY_VARIANT := carliv
+RECOVERY_VARIANT := carliv
 
 ifneq ($(RECOVERY_VARIANT),carliv)
 TARGET_RECOVERY_FSTAB := device/alcatel/4032A/recovery/recovery.fstab
